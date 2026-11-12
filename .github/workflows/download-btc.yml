@@ -27,7 +27,7 @@ jobs:
 
           while start < now:
               url = (
-                  "https://api.binance.com/api/v3/klines"
+                  "https://data-api.binance.vision/api/v3/klines"
                   f"?symbol={symbol}&interval={interval}"
                   f"&startTime={start}&limit=1000"
               )
